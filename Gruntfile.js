@@ -78,6 +78,41 @@ module.exports = function (grunt) {
 					config: "tests/intern.browserstack",
 					reporters: [] // pass :runner to avoid logging STARTED & SKIPPED
 				}
+			},
+			"local.bidi": {
+				options: {
+					runType: "runner",
+					config: "tests/intern.local",
+					reporters: [] // pass :runner to avoid logging STARTED & SKIPPED
+				}
+			},
+			"local.android.bidi": {
+				options: {
+					runType: "runner",
+					config: "tests/intern.local.android",
+					reporters: [] // pass :runner to avoid logging STARTED & SKIPPED
+				}
+			},
+			"local.ios.bidi": {
+				options: {
+					runType: "runner",
+					config: "tests/intern.local.ios",
+					reporters: [] // pass :runner to avoid logging STARTED & SKIPPED
+				}
+			},
+			"remote.bidi": {
+				options: {
+					runType: "runner",
+					config: "tests/intern",
+					reporters: [] // pass :runner to avoid logging STARTED & SKIPPED
+				}
+			},
+			"browserstack.bidi": {
+				options: {
+					runType: "runner",
+					config: "tests/intern.browserstack",
+					reporters: [] // pass :runner to avoid logging STARTED & SKIPPED
+				}
 			}
 		},
 		
