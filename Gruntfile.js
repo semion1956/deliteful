@@ -13,7 +13,7 @@ module.exports = function (grunt) {
 				jshintrc: ".jshintrc"
 			}
 		},
-
+ 
 		// Task for compiling less files into CSS files
 		less : {
 			// Compile less code for each widget
